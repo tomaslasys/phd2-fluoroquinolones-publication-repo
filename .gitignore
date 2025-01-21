@@ -1,0 +1,37 @@
+
+
+
+# Ignore these files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# also by type (since project contains subfolders with individual project files)
+*.RData
+*.RDataTemp
+*.Rhistory
+
+# ignore data files
+*.csv
+*.txt
+*.sas7bdat
+*.rds
+*.svg
+*.png
+*.pdf
+*.xlsx
+
+# ignore folders that contain data
+*/temp/
+
+
+# Make exceptions for specific files
+
+# Allow description.txt in any directory
+!**/**/description.txt
+
+# Allow output files used for manuscript and supplements
+!**/output/xlsx/*.xlsx
+!**/output/svg/*.svg
+
