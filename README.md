@@ -4,7 +4,7 @@
 
 ---
 
-## Publication Repository
+## Project Repository
 
 This repository documents the folder structures and scripts used for the analysis in the study. It is organized into separate directories for PHARMO and CPRD data, as well as sections dedicated to the manuscript and supplementary material. 
 
